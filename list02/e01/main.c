@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int verifica_primo(int valor){
 	for(int i=1;i<valor;i++){
 		if(valor%i == 0 && i!=1) {
